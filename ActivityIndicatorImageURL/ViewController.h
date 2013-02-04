@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    IBOutlet  UIImageView *_imageView;
+    
+}
 
+@property (unsafe_unretained)IBOutlet UIActivityIndicatorView *activityIndicator;
 @end
