@@ -10,9 +10,7 @@
 
 @interface ViewController : UIViewController
 {
-    IBOutlet  UIImageView *_imageView;
-    
+    IBOutlet UIImageView *_imageView;
+    IBOutlet UIActivityIndicatorView *_activityIndicator;
 }
-
-@property (unsafe_unretained)IBOutlet UIActivityIndicatorView *activityIndicator;
 @end
